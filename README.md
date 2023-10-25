@@ -27,7 +27,7 @@ Collects best IP networks from a given VRF's BGP tables on a CiscoXR router
 
 ## Preset Values
 
-- The `read_timeout` arg in `sendcommand()` function is set to 120, i.e. connection handler will not wait more than 2 minutes for the 'show' command's output to be fully returned by CLI
+- The `read_timeout` arg in `send_command()` function is set to 120, i.e. connection handler will not wait more than 2 minutes for the 'show' command's output to be fully returned by CLI
 
 ## Required Python Modules
 
