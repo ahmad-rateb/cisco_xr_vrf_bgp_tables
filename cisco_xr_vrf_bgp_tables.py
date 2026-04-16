@@ -32,7 +32,8 @@ import json
 import sys
 import re
 
-from netmiko import ConnectHandler, NetmikoTimeoutException, NetmikoAuthenticationException
+from netmiko.exceptions import NetmikoTimeoutException, NetmikoAuthenticationException
+from netmiko import ConnectHandler
 
 # Type hints aliases
 ParsedBGPEntry = Tuple[str, str, List[str]]
